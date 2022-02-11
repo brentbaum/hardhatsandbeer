@@ -6,18 +6,17 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
+        <title>BEER AND HARD HATS</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
+        {/* <Header title="Welcome to my app!" /> */}
+        <p className="description" style={{ fontSize: "10rem" }}>
+          👷 🍻 👷‍♀️
         </p>
       </main>
 
-      <Footer />
     </div>
   )
 }
